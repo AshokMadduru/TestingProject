@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pacomeal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="rs">\u20B9</string>
+
+    <!-- Nav Drawer Items-->
+    <string-array name="drawer_items">
+        <item>Home</item>
+        <item>Past Orders</item>
+        <item>Offers</item>
+        <item>Pacomeal Paise</item>
+        <item>Notifications</item>
+        <item>Profile</item>
+        <item>About Pacomeal</item>
+    </string-array>
+    <!-- Nav Drawer Icons-->
+    <array name="drawer_icons">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

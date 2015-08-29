@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:id="@+id/drawer_row">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_linear">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/nav_layout">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView"
+                android:layout_marginLeft="16dp"
+                android:background="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentTop="false"
+                android:layout_centerVertical="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="sample"
+                android:id="@+id/textView13"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/imageView"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentTop="false"
+                android:textColor="#303030" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="vertical"
+        android:background="@color/lightgray"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nav_bottom_line"></LinearLayout>
+
+
+</LinearLayout>
